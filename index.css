@@ -2,7 +2,6 @@
 
 html, body {
   margin: 0;
-  overflow: hidden-x;
   line-height: 2rem;
   text-align: justify;
   font-family: Arial, Sans-Serif;
@@ -10,21 +9,21 @@ html, body {
 
 header {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   background-color: #002b5e;
   padding: 30px;
   margin-bottom: 1%;
-  align-items: center; 
+  align-items: center;
 }
 
 header > .h1nav {
   color: #ffffff;
-  font-size: 30px; 
+  font-size: 30px;
   margin-left: 3px;
 }
 
 nav {
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 nav > a {
@@ -39,72 +38,90 @@ nav > a:hover {
   padding: 2px;
 }
 
+main {
+  max-width: 800px;
+  margin: auto;
+}
 
 article {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex
+  justify-content: space-between;
+  .
   padding: 10px;
   border-radius: 5px;
-  background-image: linear-gradient(45deg, #ffffff 35%, #000254 -60% );
+  background-image: linear-gradient(45deg, #0000003b 35%, #000254 -60% );
   padding: 20px;
-  
+
+}
+
+.text-container {
+  display: grid;
+  grid-template-columns:
+  repeat(auto-fit,
+  minmax(min(11.25rem, 100%), 1fr));
+  grid-gap: 9px;
+  margin-left: 1%;
+}
+
+.h1one {
+  font-size: 30px;
+  color: #ffffff;
 }
 
 .imagem1 {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: solid 3px #0030e9;
-  margin-right: 8%;
-  text-align: left;
+  border: solid 10px #ffffff;
+  margin-left: 20%;
 }
 
-.text-container {
+#secao1 {
   display: flex;
   flex-direction: column;
-  color: #ffffff;
-  font-size: 90%;
-  text-align: left;
+}
+.icon {
+  display: inline;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
 }
 
-h1, p {
-  width: 200px;
+.instagram, .facebook, .twitter {
+  margin-right: 10%;
+  background-color: #e6de00;
+  border-radius: 50%;
 }
 
 section {
   display: flex;
-  align-items: left;
-  justify-content: left;
-  padding: 10px;
-  border-radius: 5px;
-  background-image: linear-gradient( -45deg, #010053 60%, #ffffff -35% );
+  justify-content: space-between;
   padding: 20px;
-  margin-top: 4%;
+  background-image: linear-gradient( -45deg, #010053 70%, #0000003b -24% );
+  margin-top: 3%;
 }
-.h12, .p2 {
-  display: inline-block;
-  text-align: left;
-  color: #ffffff;
-  width: 250px;
 
+.h12 {
+  font-size: 25px;
+  color: #ffffff;
+}
+.p2 {
+  font-size: 20px;
+  color: #ffffff;
 }
 .text2 {
-  display: flex;
-  flex-direction: column;
-  background-color: #00000068;
-  border-radius: 3px;
-  width: 250px;
-  font-size: 90%;
-  text-align: center;
-  margin-left: 5%;
-  padding: 5px;
+  display: grid;
+  grid-template-columns:
+  repeat(auto-fit,
+  minmax(min(11.25rem, 100%), 1fr));
+  grid-gap: 9px;
+  margin-left: 1%;
+
 }
 .imagem2 {
-  width: 30%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
   border: solid 3px #0030e9;
   margin-left: 20%;
-  margin-top: -5%;
 }
-
