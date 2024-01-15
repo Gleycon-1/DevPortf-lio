@@ -83,14 +83,13 @@ article {
 .icon {
   display: inline;
   text-align: center;
-  width: 100px;
+  width: 200px;
   height: 30px;
   margin-right: 10px;
 }
 
 .instagram, .facebook, .twitter {
   margin-right: 10%;
-  background-color: #e6de00;
   border-radius: 50%;
 }
 
