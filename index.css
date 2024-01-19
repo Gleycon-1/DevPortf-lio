@@ -12,14 +12,13 @@ header {
   justify-content: space-between;
   background-color: #002b5e;
   padding: 30px;
-  margin-bottom: 1%;
   align-items: center;
 }
 
-header > .h1nav {
+header > .h1nav, .h2nav {
   color: #ffffff;
   font-size: 30px;
-  margin-left: 3px;
+  margin-left: 10px;
 }
 
 nav {
@@ -39,19 +38,17 @@ nav > a:hover {
 }
 
 main {
-  max-width: 800px;
   margin: auto;
 }
 
 article {
-  display: flex
+  display: block;
   justify-content: space-between;
-  .
-  padding: 10px;
   border-radius: 5px;
-  background-image: linear-gradient(45deg, #0000003b 35%, #000254 -60% );
-  padding: 20px;
-
+  background-image: linear-gradient(45deg, #000000, #000254  );
+  padding: 50px;
+  margin-bottom: 1%;
+  border-radius: 0 0 40% 40%;
 }
 
 .text-container {
@@ -61,36 +58,86 @@ article {
   minmax(min(11.25rem, 100%), 1fr));
   grid-gap: 9px;
   margin-left: 1%;
+  margin-right: 2%;
 }
 
 .h1one {
+  text-align: right;
   font-size: 30px;
-  color: #ffffff;
+  color: #fe7400;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #333;
+  animation: digitar 6s steps(40) infinite;
 }
 
+@keyframes digitar {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
 .imagem1 {
+  margin-top: 5%;
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: solid 10px #ffffff;
-  margin-left: 20%;
+  margin-left: -1px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: moveUpDown 2s linear infinite;
 }
 
-#secao1 {
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-80px);
+  }
+}
+
+.secao1 {
+  margin: auto;
+  max-width: 900px;
+}
+
+.secao2 {
   display: flex;
   flex-direction: column;
 }
 .icon {
-  display: inline;
+  display: inline-block;
   text-align: center;
   width: 200px;
   height: 30px;
-  margin-right: 10px;
+  margin-left: 50%;
 }
 
 .instagram, .facebook, .twitter {
   margin-right: 10%;
   border-radius: 50%;
+  color: #ffffff;
+}
+.instagram:hover {
+  scale: 1.5;
+  color: #ff395b;
+  margin-right: 30px;
+}
+
+.facebook:hover {
+  scale: 1.5;
+  color: #0352ff;
+  margin-right: 30px;
+}
+.twitter:hover {
+  scale: 1.5;
+  color: #24daff;
+  margin-right: 20px;
 }
 
 section {
