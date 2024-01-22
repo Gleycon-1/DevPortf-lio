@@ -114,30 +114,41 @@ article {
   display: inline-block;
   text-align: center;
   width: 200px;
-  height: 30px;
-  margin-left: 50%;
+  margin-left: 30%;
+  border: solid 2px #ffffff;
+  padding: 10px;
 }
 
-.instagram, .facebook, .twitter {
+.h2i {
+  color: #ffffff;
+  border: solid 1px #fe7400;
+  padding: 5px;
+}
+
+.lindin, .github, .instagram {
   margin-right: 10%;
   border-radius: 50%;
   color: #ffffff;
+  border: solid 3px #ffffff;
+  padding: 5px;
+}
+.lindin:hover {
+  transition: 0.8s;
+  scale: 1.5;
+  color: #2798ff;
+  border: solid 1px #2798ff;
+}
+.github:hover {
+  transition: 0.8s;
+  scale: 1.5;
+  color: #ffffff51;
+  border: solid 1px #ffffff51;
 }
 .instagram:hover {
+  transition: 0.8s;
   scale: 1.5;
   color: #ff395b;
-  margin-right: 30px;
-}
-
-.facebook:hover {
-  scale: 1.5;
-  color: #0352ff;
-  margin-right: 30px;
-}
-.twitter:hover {
-  scale: 1.5;
-  color: #24daff;
-  margin-right: 20px;
+  border: solid 1px #ff395b;
 }
 
 section {
@@ -167,7 +178,7 @@ section {
 }
 .imagem2 {
   width: 200px;
-  height: 240px;
+  height: 250px;
   border: solid 1px #0030e9;
   margin-left: 20%;
 }
