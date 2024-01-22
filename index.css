@@ -45,10 +45,13 @@ article {
   display: block;
   justify-content: space-between;
   border-radius: 5px;
-  background-image: linear-gradient(45deg, #000000, #000254  );
+  background-image: url('image-c.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 2px 2px 2px #000254;
   padding: 50px;
   margin-bottom: 1%;
-  border-radius: 0 0 40% 40%;
+  border-radius: 0 0 30% 30%;
 }
 
 .text-container {
@@ -101,11 +104,6 @@ article {
   }
 }
 
-.secao1 {
-  margin: auto;
-  max-width: 900px;
-}
-
 .secao2 {
   display: flex;
   flex-direction: column;
@@ -141,8 +139,8 @@ article {
 .github:hover {
   transition: 0.8s;
   scale: 1.5;
-  color: #ffffff51;
-  border: solid 1px #ffffff51;
+  color: #000000;
+  border: solid 1px #000000;
 }
 .instagram:hover {
   transition: 0.8s;
@@ -151,19 +149,29 @@ article {
   border: solid 1px #ff395b;
 }
 
-section {
+.secao1 {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-image: linear-gradient( -45deg, #010053 70%, #0000003b -24% );
+  background-image: linear-gradient( -45deg, #010053 , #000000);
   margin-top: 3%;
+  box-shadow: 3px 3px 3px #0000003a;
 }
 
 .h12 {
+  background-image: linear-gradient(to right, #fe7400 , #010053 120px);
+  padding: 10px;
+  border-radius: 30%;
+  width: 160px;
   font-size: 25px;
   color: #ffffff;
 }
 .p2 {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+details {
   font-size: 20px;
   color: #ffffff;
 }
@@ -174,11 +182,13 @@ section {
   minmax(min(11.25rem, 100%), 1fr));
   grid-gap: 9px;
   margin-left: 1%;
-
+  padding: 3%;
 }
 .imagem2 {
   width: 200px;
   height: 250px;
-  border: solid 1px #0030e9;
-  margin-left: 20%;
+  box-shadow: 10px 0px 10px #0035e1;
+  margin-left: 19%;
+  margin-top: 20%;
+  border-radius: 20px;
 }
