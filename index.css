@@ -10,10 +10,11 @@ html, body {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #002b5e;
+  background-image: linear-gradient(to left, #000000, #00024f);
   padding: 30px;
   align-items: center;
 }
+
 
 header > .h1nav, .h2nav {
   color: #ffffff;
@@ -206,7 +207,6 @@ details {
 }
 
 
-
 .ferramentas {
   display: block;
   justify-content: justify;
@@ -260,4 +260,41 @@ details {
   color: #fe7400;
   border: solid 2px #ffffff;
   padding: 5px;
+}
+
+.h3f {
+  display: inline-block;
+  width: 100px;
+  margin-left: -125px;
+  color: #ffffff;
+}
+.js {
+  display: inline-block;
+  margin: 0;
+}
+.js:hover {
+  transition: 1s;
+  scale: 1.0;
+  padding: 2px;
+  border: solid 1px #fffc12;
+  box-shadow: 2px 2px 2px 2px #fff63f71;
+}
+figcaption {
+  color: #ffffff;
+}
+.php {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+.php:hover {
+  -webkit-box-shadow: 1px 2px 2px #9918ff44;
+}
+
+.imgfe {
+  display: grid;
+  grid-template-columns:
+  repeat(auto-fit,
+  minmax(min(11.00rem, 100%), 1fr));
+  grid-gap: 1px;
 }
