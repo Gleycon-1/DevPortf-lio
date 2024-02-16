@@ -51,7 +51,7 @@ article {
   background-image: url('image-c.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-
+  background-position: center center;
   box-shadow: 2px 2px 2px #000254;
   padding: 50px;
   margin-bottom: 2px;
@@ -240,7 +240,7 @@ footer {
   margin: 0 auto;
   max-width: 500px;
   border: solid 2px #ffffff;
-  padding: 10px;
+  padding: 20px;
 }
 
 .h2i {
@@ -252,7 +252,7 @@ footer {
 }
 
 #iconteste {
-  padding: 3px;
+  padding: 5px;
   text-align: center;
 }
 
@@ -270,20 +270,23 @@ footer {
   scale: 1.5;
   color: #2798ff;
   border: solid 1px #2798ff;
+  padding: 8px;
   margin: 0 20px 0 20px;
 }
 .github:hover {
   transition: 0.8s;
   scale: 1.5;
-  background-color:;
-  color: #000000;
+  background-color: #000;
   border: solid 1px #000000;
+  padding: 8px;
   margin: 0 20px 0 20px;
 }
 .instagram:hover {
   transition: 0.8s;
   scale: 1.5;
-  color: #ff395b;
+  background-color: #ff395b;
+  color: ;
   border: solid 1px #ff395b;
+  padding: 8px;
   margin: 0 20px 0 20px;
 }
