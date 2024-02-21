@@ -133,6 +133,7 @@ article {
   width: 160px;
   font-size: 25px;
   color: #ffffff;
+  border: solid 1px #004afd;
 }
 .p2 {
   font-size: 20px;
@@ -153,6 +154,7 @@ details {
   padding: 2%;
 }
 .imagem2 {
+  background-size: 100%;
   width: 50%;
   height: 50%;
   box-shadow: 10px 0px 10px #0035e1;
@@ -296,4 +298,31 @@ footer {
   border: solid 1px #ff395b;
   padding: 8px;
   margin: 0 20px 0 20px;
+}
+
+#pcaixa {
+  display: block;
+  margin-top: 1%;
+  border: solid 3px #f70000;
+  background-image: linear-gradient(to top, #87ffcf, #b2ffa0);
+}
+.h1pt {
+  text-align: center;
+}
+.projetosp {
+  text-align: center;
+  width: 100%;
+}
+.caixap {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border: solid 2px #ffd11c;
+  padding: 5px;
+  margin: 5px;
+}
+div.caixap > a {
+  position: relative;
+  top: 30%;
 }
