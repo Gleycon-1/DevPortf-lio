@@ -2,6 +2,7 @@
 
 html, body {
   margin: 0;
+  background-color: #000;
   line-height: 2rem;
   text-align: justify;
   font-family: Arial, Sans-Serif;
@@ -293,8 +294,8 @@ footer {
 .instagram:hover {
   transition: 0.8s;
   scale: 1.5;
-  background-color: #ff395b;
-  color:;
+  background-image: linear-gradient(to top, #a10101, #000);
+  color: ;
   border: solid 1px #ff395b;
   padding: 8px;
   margin: 0 20px 0 20px;
