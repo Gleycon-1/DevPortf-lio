@@ -194,7 +194,32 @@ HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais bá
 </div>
 </footer>
 
+<section id="novo">
+  <fieldset>Formulario
+  
+    <form action="cadastro.php" method="get">
 
+    <label for="nome">Nome:</label>
+    <br>
+    <input type="text">
+<br>
+
+<label for="sobenome:">Sobrenome:</label>
+<br>
+<input type="text">
+
+<br>
+
+<label for="senha">Senha:</label>
+<br>
+<input type="password">
+
+<br>
+
+<input type="submit" value="enviar">
+  </form>
+</fieldset>
+</section>
 <script>
 let currentIndex = 0; function showSlide(index) {
 const slides = document.getElementById('slides'); slides.style.transform = `translateX(${-index * 100}%)`;
