@@ -201,28 +201,29 @@ HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais bá
 
 
 <section id="novo">
-  <fieldset>Formulario
+  <fieldset>
+    <legend>Formulario</legend>
   
     <form action="cadastro.php" method="get">
 
     <label for="nome">Nome:</label>
     <br>
-    <input type="text">
+    <input type="text" name="nome" id="nome" required>
 <br>
 
 <label for="sobenome:">Sobrenome:</label>
 <br>
-<input type="text">
+<input type="text" name="sobrenome" id="sobrenome" required>
 
 <br>
 
 <label for="senha">Senha:</label>
 <br>
-<input type="password">
+<input type="password" name="senha" id="senha" required>
 
 <br>
 
-<input type="submit" value="enviar">
+<input type="submit" value="enviar" id="enviar">
   </form>
 </fieldset>
 </section>
