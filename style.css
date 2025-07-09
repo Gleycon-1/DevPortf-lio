@@ -57,3 +57,26 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
+#devimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.8s ease;
+}
+
+#devimg:hover {
+   border-color: #4F46E5;
+    transform: scale(1.08);
+
+}
+
+#contact-form {
+    color: black;
+    background-color: #f9fafb;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
